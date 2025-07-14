@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: azure;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    gap: 10PX;
+    position: fixed;
+}
+.logo{
+    display: flex;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 16%;
+    background: white;
+    color: rgb(0, 0, 0);
+    height: 100%;
+}
+.logo span{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.doc-fam{
+    background-image: url(./assert/doc-fam3.jpeg);
+    background-size:cover;
+    position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+margin-top: 0px;
+opacity: 225,225,225,225,0.9;
+}
+.doc-fam h1{
+    font-size: 68px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+.doc-fam p{
+    font-size: 20px;
+    width: 80%;
+}
+.found{
+    text-align: center;
+
+}
+.found h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 46px;
+    font-weight: bold;
+}
+.founder{
+    display: flex;
+    gap: 20px;
+    height: 70vh;
+    border-radius:10px ;
+}
+.founder img{
+    width: 50%;
+    border-radius: 10px;
+}
+.founder .text{
+    background-color:snow ;
+    height:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    align-content: justify;
+    gap: 40px;
+}
+.founder h1{
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    width: 80%;
+    height: 90px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius:10px ;
+
+}
+.founder p{
+    font-size: 17px;
+    justify-content:space-evenly;
+    align-content: flex-start;
+}
+.docs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 450px 450px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+}
+.doc {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 0.4px solid rgb(181, 181, 181);
+    overflow: hidden;
+    border-radius:10px ;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.8);
+
+}
+
+
+.doc .text {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.d1{
+    height: 60%;
+}
+.d1 img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%; 
+}
+
+.docts{
+    margin-bottom: 40px;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.docts h1{
+    font-size: 48px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+.doc h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+@media (max-width:768px){
+    .docs {
+    display: grid;
+    grid-template-columns: 1fr ;
+    height: auto;
+
+}
+.founder{
+    display: flex;
+    gap: 20px;
+    height: auto;
+    border-radius:10px ;
+    flex-direction: column;
+    align-items: center;
+}
+.founder img{
+    width: 80%;
+}
+}

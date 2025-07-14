@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: azure;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    gap: 10PX;
+    position: fixed;
+}
+.logo{
+    display: flex;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 16%;
+    background: white;
+    color: rgb(0, 0, 0);
+    height: 100%;
+}
+.logo span{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.happy{
+    background-image: url(./assert/lens-overview-smart-life-1-1.jpg);
+    background-size:cover;
+    position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+margin-top: 0px;
+opacity: 225,225,225,225,0.9;
+}
+.happy h1{
+    font-size: 68px;
+    font-weight: bolder;
+    color: rgb(221, 221, 221);
+}
+.happy p{
+    font-size: 30px;
+    width: 80%;
+}
+.pa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 95%;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    overflow: hidden;
+    gap: 24px;
+    padding: 0 24px;
+}
+.pa img{
+    width: 40%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.pa p{
+    width: 60%;
+    font-size: 1.2rem;
+    color: #222;
+    padding: 0 16px;
+    text-align: left;
+    line-height: 1.5;
+}
+@media (max-width: 900px) {
+    .pa {
+        flex-direction: column;
+        height: auto;
+    }
+    .pa img, .pa p {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        padding: 0;
+    }
+    .pa p {
+        margin-top: 16px;
+        text-align: center;
+    }
+}

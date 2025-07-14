@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: azure;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    gap: 10PX;
+    position: fixed;
+}
+.logo{
+    display: flex;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 16%;
+    background: white;
+    color: rgb(0, 0, 0);
+    height: 100%;
+}
+.logo span{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.blogm{
+    background-image: url(./assert/homepage_zvc.jpg);
+    background-size:cover;
+    position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+margin-top: 0px;
+opacity: 225,225,225,225,0.9;
+}
+.blogm h1{
+    font-size: 68px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+.blogm p{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+.docs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 550px 550px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+}
+.doc {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 0.4px solid rgb(181, 181, 181);
+    overflow: hidden;
+    border-radius:10px ;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.8);
+
+}
+
+
+.doc .text {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.d1{
+    height: 60%;
+}
+.d1 img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%; 
+}
+
+.docts{
+    margin-bottom: 40px;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.docts h1{
+    font-size: 48px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+.doc h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+@media (max-width: 768px){
+    .docs {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 550px ;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+}
+
+}
