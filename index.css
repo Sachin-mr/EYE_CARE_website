@@ -84,7 +84,7 @@ height: 100%;
     }
     .menu-icon {
         display: flex;
-        margin-left: 50%;
+        text-aling: end;
     }
 .logo{
     width:40%;
