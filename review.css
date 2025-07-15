@@ -100,4 +100,7 @@ opacity: 225,225,225,225,0.9;
         margin-top: 16px;
         text-align: center;
     }
+    .logo{
+    width:max-content;
+}
 }
