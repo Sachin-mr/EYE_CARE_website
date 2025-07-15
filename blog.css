@@ -129,5 +129,8 @@ opacity: 225,225,225,225,0.9;
     text-align: center;
     width: 90%;
 }
+    .logo{
+    width:max-content;
+}
 
 }
