@@ -84,7 +84,7 @@ height: 100%;
     }
     .menu-icon {
         display: flex;
-        text-aling: end;
+        text-align: end;
     }
 .logo{
     width:40%;
@@ -275,6 +275,10 @@ height: 100%;
     .eye-checkup img {
         width: 100%;
         height: auto;
+    }
+        .card {
+        height: auto;
+        overflow: scroll;
     }
 }
 
