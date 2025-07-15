@@ -184,4 +184,7 @@ opacity: 225,225,225,225,0.9;
 .founder img{
     width: 80%;
 }
+.logo{
+    width:max-content;
+}    
 }
