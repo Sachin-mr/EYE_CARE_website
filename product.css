@@ -139,4 +139,7 @@ opacity: 225,225,225,225,0.9;
         flex-direction: column;
         align-items: center;
     }
+    .logo{
+    width:max-content;
+}
 }
