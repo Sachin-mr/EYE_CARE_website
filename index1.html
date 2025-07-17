@@ -11,13 +11,16 @@
     <link rel="stylesheet" href="https://themewagon.github.io/pizza/css/flaticon.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!--apply bootstrap by linking to the available format -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="navbar">
         <div class="logo">
             <img src="./assert/logo-b.png" alt="EyeNet">
-            <span>Eye<br>Net</span>
+            <span class="brand">Eye Net</span>
         </div>
         <div class="menu">
             <ul>
@@ -175,6 +178,74 @@
             <button type="submit">Book Now</button>
         </form>
     </div>
+
+    <!--Footer-->
+    <footer class="mt-5 py-5" style="display: flex; flex-direction: column;">
+        <div class="row container mx-auto pt-5">
+            <div class="footer-one col-lg-3 col-md-6 col-sm-12">
+                <img id="logo-img-footer" src="./assert/logo-b.png" alt="EyeNet">
+                <p id="slogan" class="pt-3">Crafted with Care <br> Branded with Trust</p>
+            </div>
+
+            <div class="footer-one col-lg-3 col-md-6 col-sm-12">
+                <h5 class="pb-2">Featured</h5>
+                <ul class="text-uppercase" style="list-style: none;">
+                    <li><a href="#">Health care</a></li>     
+                    <li><a href="#">Products</a></li>   
+                    <li><a href="#">Surgery</a></li>
+                    <li><a href="#">Care Plans</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-one col-lg-3 col-md-6 col-sm-12">
+                <h5 class="pb-2">Contact Us</h5>
+                <div>
+                    <h6 class="text-uppercase">Address</h6>
+                    <p>7839 Pine Crest Avenue <br>
+                        San Jose, CA 95123 <br>
+                        United States
+                    </p>
+                </div>
+                <div>
+                    <h6 class="text-uppercase">Phone</h6>
+                    <p>(408) 555-0147</p>
+                </div>
+                <div>
+                    <h6 class="text-uppercase">Email</h6>
+                    <p>eyenet1607@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="footer-one col-lg-3 col-md-6 col-sm-12">
+                <h5 class="pb-2">Instagram</h5>
+                <div class="row">
+                    <img src="/assert/p1.avif" class="img-fluid w-25 h-100 m-2">
+                    <img src="/assert/p2.avif" class="img-fluid w-25 h-100 m-2">
+                    <img src="/assert/g1.avif" class="img-fluid w-25 h-100 m-2">
+                    <img src="/assert/l1.webp" class="img-fluid w-25 h-100 m-2">
+                    <img src="/assert/l2.webp" class="img-fluid w-25 h-100 m-2">
+                    <img src="/assert/l3.jpg" class="img-fluid w-25 h-100 m-2">
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright mt-5">
+            <div class="row container mx-auto">
+                <div class="col-lg-3 col-md-5 col-sm-12 mb-4">
+                    <img id="payment-img" src="/assert/payment.jpeg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-12 mb-4 text-nowrap">
+                    <p id="copyright">eCommerce @ 2025 All Right Reversed</p>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-12 mb-4">
+                    <a id="fb-icon" href="#"><i class="fab fa-facebook"></i></a>
+                    <a id="ig-icon" href="#"><i class="fab fa-instagram"></i></a>
+                    <a id="tw-icon" href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>           
+        </div>
+    </footer>
 
 </body>
 

@@ -32,6 +32,8 @@ body::before{
     margin-top: -20px;
     margin-bottom: 20px;
     z-index: 11111;
+    box-shadow: unset;
+    margin-bottom: 0px;
 }
 
 .logo span{
@@ -46,7 +48,6 @@ body::before{
     height: 550px;
     margin: 100px auto;
     padding: 20px;
-
     border-radius: 8px;
     z-index: 11111;
     display: flex;
@@ -66,8 +67,11 @@ body::before{
     align-items: center;
     background-color: blur(255, 255, 255, 255);
     box-shadow: 0 2px 10px rgba(0,0,0,0.4);
-        z-index: 11111;
-    
+    z-index: 11111;
+    margin: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
 }
 .container .right form {
     width: 95%;
