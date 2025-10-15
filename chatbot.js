@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return "The chatbot is not configured. Please create a `config.js` file and add your Gemini API key.";
         }
 
-        const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${GEMINI_API_KEY}`;
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro-latest:generateContent?key=${GEMINI_API_KEY}`;
 
         // Add the website's context to the prompt
         const prompt = `
