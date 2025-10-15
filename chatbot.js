@@ -82,7 +82,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Get bot response from Gemini API
-    const  GEMINI_API_KEY = "AIzaSyDlSCzDL5r5mCqFiEWkZ4gI_90lOPhR6gU";
+    const GEMINI_API_KEY = "AIzaSyDlSCzDL5r5mCqFiEWkZ4gI_90lOPhR6gU";
+    const  getBotResponse = async (userMessage) => {
+        if (typeof GEMINI_API_KEY === 'undefined' || GEMINI_API_KEY === "YOUR_GEMINI_API_KEY") {
+            return "The chatbot is not configured. Please create a `config.js` file and add your Gemini API key.";
+        }
 
         const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${GEMINI_API_KEY}`;
 
