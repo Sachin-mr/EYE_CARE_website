@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } catch (error)
         {
             console.error(error);
-            return "Sorry, I'm having trouble connecting to the chatbot service. Please try again later.";
+            return "Sorry, I'm having trouble connecting to the chatbot service. Please check your API key and try again later.";
         }
     };
 });
